@@ -1,0 +1,131 @@
+.job-details-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 8px 0;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.job-details-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.job-details-header h1 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.job-posted {
+  color: #888;
+  margin: 0;
+}
+
+.job-budget-large {
+  font-size: 32px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.job-details-content {
+  padding: 2rem 0;
+}
+
+.job-details-content h3 {
+  color: #333;
+  margin: 2rem 0 1rem 0;
+}
+
+.job-details-content h3:first-child {
+  margin-top: 0;
+}
+
+.job-details-content p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.detail-item {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.detail-label {
+  display: block;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.detail-value {
+  display: block;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.skill-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.apply-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: 2rem;
+}
+
+.apply-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.apply-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
