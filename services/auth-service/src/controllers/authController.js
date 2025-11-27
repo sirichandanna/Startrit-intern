@@ -9,7 +9,7 @@ export const signup = async (req, res) => {
     // Check existing user
     const exists = await User.findOne({ email });
     if (exists) return res.status(400).json({ msg: "User already exists" });
-
+//hi
     // Hash password
     const hashed = await bcrypt.hash(password, 10);
 
